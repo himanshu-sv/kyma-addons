@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5810504-b088-4f34-b8b0-c2c4922057d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/chart/cds-connector/.helmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/chart/cds-connector/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/chart/cds-connector/templates/_helpers.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/chart/cds-connector/templates/config-map.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/chart/cds-connector/templates/job.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/chart/cds-connector/values.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/docs/meta.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/docs/overview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/meta.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/create-instance-schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/meta.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/create-instance-schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/create-instance-schema.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/create-instance-schema.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="112" selection-start-line="12" selection-start-column="112" selection-end-line="12" selection-end-column="112" />
+            <state relative-caret-position="493">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -60,7 +49,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/meta.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -116,8 +105,8 @@
         <option value="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/chart/cds-connector/Chart.yaml" />
         <option value="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/docs/meta.yaml" />
         <option value="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/docs/overview.md" />
-        <option value="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/create-instance-schema.json" />
         <option value="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/meta.yaml" />
+        <option value="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/create-instance-schema.json" />
       </list>
     </option>
   </component>
@@ -236,6 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0" />
@@ -273,12 +263,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576176703755</updated>
-      <workItem from="1576176705339" duration="1555000" />
+      <workItem from="1576176705339" duration="2451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1555000" />
+    <option name="totallyTimeSpent" value="2451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="70" width="1400" height="916" extended-state="0" />
@@ -358,13 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/create-instance-schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="112" selection-start-line="12" selection-start-column="112" selection-end-line="12" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/meta.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -375,6 +358,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kyma-addons/cds-connector-0.1.0/plans/default/create-instance-schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>

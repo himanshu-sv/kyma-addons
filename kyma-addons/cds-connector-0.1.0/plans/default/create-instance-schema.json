@@ -13,6 +13,24 @@
       "description": "The API Key is passed as a header and used for authenticating the API calls by the SAP CDS system",
       "format": "password"
     },
+    "oauthUrl": {
+      "type": "string",
+      "title": "OAUTH_URL",
+      "description": "The API Key is passed as a header and used for authenticating the API calls by the SAP CDS system",
+      "format": "password"
+    },
+    "CLIENT_ID": {
+      "type": "string",
+      "title": "CLIENT_ID",
+      "description": "The API Key is passed as a header and used for authenticating the API calls by the SAP CDS system",
+      "format": "password"
+    },
+    "CLIENT_SECRET": {
+      "type": "string",
+      "title": "CLIENT_SECRET",
+      "description": "The API Key is passed as a header and used for authenticating the API calls by the SAP CDS system",
+      "format": "password"
+    },
     "source": {
       "type": "string",
       "title": "Source",
