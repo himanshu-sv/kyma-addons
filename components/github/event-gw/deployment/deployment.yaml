@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: github-event-gw
+  name: github-event-gw
+  namespace: kyma-integration
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: github-event-gw
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: github-event-gw
+    spec:
+      containers:
+      - image: gabbi/github-event-gw:0.0.1
+        name: github-event-gw
+        resources: {}
+        ports:
+          - containerPort: 8080
+            protocol: TCP
+        envFrom:
+          - secretRef:
+              name: github-event-gw
+              optional: false
+        args:
+          - --verbose=false
+          - --basic-auth-enabled=true
+          - --username=$(USERNAME)
+          - --password=$(PASSWORD)
+          - --app-name=github
+          - --event-publish-url=http://event-publish-service.kyma-system.svc.cluster.local:8080/v1/events
+          - --secret-key=kyma4ever
+status: {}

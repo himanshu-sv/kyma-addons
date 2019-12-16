@@ -1,0 +1,3 @@
+{
+    "Authorization" : {{ printf "token %s" .Values.token | quote}}
+}
