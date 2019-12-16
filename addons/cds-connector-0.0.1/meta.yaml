@@ -1,0 +1,13 @@
+name: github-connector
+version: 0.0.1
+description: "Enables the preview integration of Github APIs and Events. It is not recommended for production scenarios."
+id: 15ad661a-6e44-4b15-ab78-33a811d06a8b
+displayName: "[Preview] Github - Connector"
+tags: preview,github,connector
+labels: 
+  preview: "true"
+providerDisplayName: Github
+longDescription: "Enables extending Github in preview mode by registering its REST APIs and Events in an existing Application and enables consuming the APIs from a lambda or microservice with trigger from github events. It is not recommended for production use."
+documentationURL: https://developer.github.com/v3/
+bindable: false
+provisionOnlyOnce: true
