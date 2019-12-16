@@ -4,3 +4,7 @@ entries:
     - name: github-connector
       description: "github connector"
       version: 0.0.1
+  cds-connector:
+    - name: cds-connector
+      description: "github connector"
+      version: 0.1.0
