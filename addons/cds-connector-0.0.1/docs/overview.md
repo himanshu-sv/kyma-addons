@@ -7,7 +7,7 @@ Use **CDS Connector** to connect your repository webhooks with Kyma events to tr
 
 **Prerequisite**
 
-It uses the API token for makinng API calls to Github.
+It uses the API token for makinng API calls to Context driven services.
 
 **Components**
 

@@ -12,5 +12,5 @@ data:
   PROVIDER_NAME: Github
   PRODUCT_NAME: Github
   APP_KIND: rest-with-apikey
-  API_DESCRIPTION: "APIs for Github.com"
+  API_DESCRIPTION: "APIs for CDS"
   API_SPECIFICATION_URL: https://raw.githubusercontent.com/abbi-gaurav/kyma-connectors/master/addons/github-connector-0.0.1/docs/assets/github-open-api.json
