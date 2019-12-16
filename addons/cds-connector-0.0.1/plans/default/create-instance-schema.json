@@ -5,36 +5,41 @@
     "system_url": {
       "type": "string",
       "title": "System URL",
-      "description": "The base URL of the Github developer API. For example, https://api.github.com"
+      "description": "The base URL of the SAP CDS instance. For example, https://api.litmos.com/v1.svc"
     },
-    "token": {
+    "oauth_Url": {
       "type": "string",
-      "title": "Personal Access Token",
-      "description": "The token used for making the API calls to github",
+      "title": "oauth_url",
+      "description": "The API Key is passed as a header and used for authenticating the API calls by the SAP CDS system",
       "format": "password"
     },
-    "secret":{
+    "client_id": {
       "type": "string",
-      "title": "Event Payload verification secret",
-      "description": "The secret which will be used to verify the signature of the event payload",
+      "title": "client_id",
+      "description": "The API Key is passed as a header and used for authenticating the API calls by the SAP CDS system",
       "format": "password"
+    },
+    "client_secret": {
+      "type": "string",
+      "title": "client_secret",
+      "description": "The API Key is passed as a header and used for authenticating the API calls by the SAP CDS system",
+      "format": "password"
+    },
+    "source": {
+      "type": "string",
+      "title": "Source",
+      "description": "Free text description of your app. Usually a company or product name."
     },
     "application_name": {
       "type": "string",
       "title": "Application Name",
       "description": "The name of the Application CR where the REST APIS should be registered for consumption"
-    },
-    "cluster_domain" : {
-      "type": "string",
-      "title": "Kyma Cluster Domain",
-      "description": "The domain of the Kyma cluster"
     }
   },
   "required": [
     "system_url",
-    "token",
-    "application_name",
-    "secret",
-    "cluster_domain"
+    "oauth_Url",
+    "client_id",
+    "client_secret"
   ]
 }
