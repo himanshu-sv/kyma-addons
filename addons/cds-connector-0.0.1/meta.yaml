@@ -1,4 +1,4 @@
-name: github-connector
+name: cds-connector
 version: 0.0.1
 description: "Enables the preview integration of Github APIs and Events. It is not recommended for production scenarios."
 id: 15ad661a-6e44-4b15-ab78-33a811d06a8b
