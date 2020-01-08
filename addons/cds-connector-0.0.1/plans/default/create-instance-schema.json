@@ -7,7 +7,7 @@
       "title": "System URL",
       "description": "The base URL of the Github developer API. For example, https://api.github.com"
     },
-    "token": {
+    "apikey": {
       "type": "string",
       "title": "Personal Access Token",
       "description": "The token used for making the API calls to github",
@@ -32,7 +32,7 @@
   },
   "required": [
     "system_url",
-    "token",
+    "apikey",
     "application_name",
     "secret",
     "cluster_domain"

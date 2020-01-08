@@ -3,7 +3,7 @@ title: Overview
 type: Overview
 ---
 
-Use **Github Connector** to connect your repository webhooks with Kyma events to trigger serverless compute and make API calls from a lambda or a microservice.
+Use **Github Test Connector** to connect your repository webhooks with Kyma events to trigger serverless compute and make API calls from a lambda or a microservice.
 
 **Prerequisite**
 
