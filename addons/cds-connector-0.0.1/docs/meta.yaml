@@ -1,7 +1,7 @@
 docs:
   - template:
-      displayName: "github-connector-0.1.0"
-      description: "Github Connector documentation"
+      displayName: "cds-connector-0.1.0"
+      description: "cds Connector documentation"
       sources:
         - type: markdown
           name: docs
