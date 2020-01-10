@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5810504-b088-4f34-b8b0-c2c4922057d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/create-instance-schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/create-instance-schema.json" afterDir="false" />
-    </list>
+    <list default="true" id="c5810504-b088-4f34-b8b0-c2c4922057d5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/create-instance-schema.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -25,30 +23,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/cds-connector-0.0.1/chart/cds-connector/Chart.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/meta.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/values.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/meta.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/templates/cm-config.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/assets/api-call-headers.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/values.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/assets/github-connector.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/assets/github-events.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -72,6 +83,7 @@
     <findStrings>
       <find>preview</find>
       <find>secret</find>
+      <find>event-gw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,6 +178,14 @@
               <item name="jokafreak" type="462c0819:PsiDirectoryNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
               <item name="github-connector-0.0.1" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokafreak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokafreak" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="github-connector-0.0.1" type="462c0819:PsiDirectoryNode" />
               <item name="plans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,12 +247,12 @@
       <option name="presentableId" value="Default" />
       <updated>1576176703755</updated>
       <workItem from="1576176705339" duration="7981000" />
-      <workItem from="1577963988336" duration="5447000" />
+      <workItem from="1577963988336" duration="6021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13428000" />
+    <option name="totallyTimeSpent" value="14002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="70" width="1400" height="916" extended-state="0" />
@@ -301,9 +321,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/cds-connector-0.0.1/chart/cds-connector/templates/job.yaml" />
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/meta.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/addons/index.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -369,6 +386,65 @@
     <entry file="file://$PROJECT_DIR$/addons/cds-connector-0.0.1/chart/cds-connector/templates/job.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/addons/cds-connector-0.0.1/chart/cds-connector/Chart.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/cds-connector-0.0.1/chart/cds-connector/values.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/github/event-gw/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="182" selection-start-line="6" selection-start-column="182" selection-end-line="6" selection-end-column="182" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/templates/cm-config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/templates/cm-spec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17042" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/templates/event-gw.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/templates/job.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/Chart.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/assets/api-call-headers.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/assets/github-connector.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/assets/github-events.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/meta.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -380,43 +456,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/values.yaml">
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/create-instance-schema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="510">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/templates/cm-config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/Chart.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/cds-connector-0.0.1/chart/cds-connector/Chart.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/cds-connector-0.0.1/chart/cds-connector/values.yaml">
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/meta.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/values.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/meta.yaml">
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/meta.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/create-instance-schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="19" />
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
