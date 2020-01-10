@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5810504-b088-4f34-b8b0-c2c4922057d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/templates/cm-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/templates/cm-config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/create-instance-schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/create-instance-schema.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/create-instance-schema.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="510">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -228,12 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1576176703755</updated>
       <workItem from="1576176705339" duration="7981000" />
-      <workItem from="1577963988336" duration="5351000" />
+      <workItem from="1577963988336" duration="5447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13332000" />
+    <option name="totallyTimeSpent" value="13428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="70" width="1400" height="916" extended-state="0" />
@@ -416,8 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/create-instance-schema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="510">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>

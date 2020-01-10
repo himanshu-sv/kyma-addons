@@ -39,7 +39,7 @@
     "oauth_url",
     "client_id",
     "application_name",
-    "secret",
+    "client_secret",
     "cluster_domain"
   ]
 }
