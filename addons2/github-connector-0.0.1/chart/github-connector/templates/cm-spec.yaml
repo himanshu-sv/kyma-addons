@@ -3,15 +3,15 @@ data:
   events.json: |
     {
       "provider": "CDS",
-      "name": "CDS Events",
-      "description": "Package containing  events from CDS, for details see https://help.sap.com/viewer/product/CONTEXT-DRIVEN_SERVICES/SHIP/en-US",
+      "name": "Github Events",
+      "description": "Package containing all events from Github, for details see https://developer.github.com/v3/activity/events/types/",
       "events": {
         "spec": {
           "asyncapi": "1.0.0",
           "info": {
-            "title": "cds-events",
+            "title": "github-events",
             "version": "v1",
-            "description": "CDS Events v1"
+            "description": "GitHub Events v1"
           },
           "topics": {
             "issues.v1": {
