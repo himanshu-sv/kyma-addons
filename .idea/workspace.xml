@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5810504-b088-4f34-b8b0-c2c4922057d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/addons2/github-connector-0.0.1/docs/meta.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/addons2/github-connector-0.0.1/docs/meta.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons2/github-connector-0.0.1/docs/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/addons2/github-connector-0.0.1/docs/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/github-connector-0.0.1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/addons/github-connector-0.0.1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/github-connector-0.0.1/docs/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/addons/github-connector-0.0.1/docs/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/github-connector-0.0.1/meta.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/github-connector-0.0.1/meta.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/templates/_helpers.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons2/index.yaml">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons2/github-connector-0.0.1/docs/overview.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -69,9 +61,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/meta.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/meta.yaml">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/overview.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="187">
+                <caret line="11" selection-end-line="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -126,6 +149,9 @@
         <option value="$PROJECT_DIR$/addons2/github-connector-0.0.1/meta.yaml" />
         <option value="$PROJECT_DIR$/addons2/github-connector-0.0.1/docs/meta.yaml" />
         <option value="$PROJECT_DIR$/addons2/github-connector-0.0.1/docs/overview.md" />
+        <option value="$PROJECT_DIR$/addons/github-connector-0.0.1/docs/overview.md" />
+        <option value="$PROJECT_DIR$/addons/github-connector-0.0.1/README.md" />
+        <option value="$PROJECT_DIR$/addons/github-connector-0.0.1/meta.yaml" />
       </list>
     </option>
   </component>
@@ -157,28 +183,15 @@
             <path>
               <item name="jokafreak" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokafreak" type="462c0819:PsiDirectoryNode" />
-              <item name="addons2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokafreak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokafreak" type="462c0819:PsiDirectoryNode" />
-              <item name="addons2" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
               <item name="github-connector-0.0.1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokafreak" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokafreak" type="462c0819:PsiDirectoryNode" />
-              <item name="addons2" type="462c0819:PsiDirectoryNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
               <item name="github-connector-0.0.1" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokafreak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokafreak" type="462c0819:PsiDirectoryNode" />
-              <item name="addons2" type="462c0819:PsiDirectoryNode" />
-              <item name="github-connector-0.0.1" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,12 +245,12 @@
       <updated>1576176703755</updated>
       <workItem from="1576176705339" duration="7981000" />
       <workItem from="1577963988336" duration="10681000" />
-      <workItem from="1579084954110" duration="2507000" />
+      <workItem from="1579084954110" duration="2801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21169000" />
+    <option name="totallyTimeSpent" value="21463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="70" width="1400" height="916" extended-state="0" />
@@ -367,14 +380,6 @@
     <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/plans/default/values.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/chart/github-connector/Chart.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -384,17 +389,6 @@
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/overview.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/meta.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/assets/api-call-headers.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -502,9 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/meta.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/addons2/github-connector-0.0.1/meta.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -536,6 +527,34 @@
             <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/meta.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/docs/overview.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/github-connector-0.0.1/meta.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,7 @@
-# Overview
+Use **CDS Connector** to connect your CDS backend with Kyma events to trigger serverless compute and make API calls from a lambda or a microservice.
 
-The Github connector enables integrating:
+**Prerequisite**
 
-* Github Repository webhooks with Kyma runtime.
-* Enable making API calls to Github via application gateway.
+It uses the API token for makinng API calls to CDS.
+
+
