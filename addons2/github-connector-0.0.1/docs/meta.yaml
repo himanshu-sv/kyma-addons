@@ -1,0 +1,9 @@
+docs:
+  - template:
+      displayName: "cds-connector-0.1.0"
+      description: "CDS Connector documentation"
+      sources:
+        - type: markdown
+          name: docs
+          mode: package
+          filter: (docs/(.*?)\.(md|svg)$)
