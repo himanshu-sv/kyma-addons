@@ -7,20 +7,16 @@
       "title": "System URL",
       "description": "The base URL of the Github developer API. For example, https://api.github.com"
     },
-    "oauth_url": {
+    "token": {
       "type": "string",
-      "title": "OAUTH_URL",
-      "description": "OAUTH_URL"
+      "title": "Personal Access Token",
+      "description": "The token used for making the API calls to github",
+      "format": "password"
     },
-    "client_id": {
+    "secret":{
       "type": "string",
-      "title": "client_id",
-      "description": "client_id"
-    },
-    "client_secret":{
-      "type": "string",
-      "title": "client_secret",
-      "description": "client_secret",
+      "title": "Event Payload verification secret",
+      "description": "The secret which will be used to verify the signature of the event payload",
       "format": "password"
     },
     "application_name": {
@@ -36,10 +32,9 @@
   },
   "required": [
     "system_url",
-    "oauth_url",
-    "client_id",
+    "token",
     "application_name",
-    "client_secret",
+    "secret",
     "cluster_domain"
   ]
 }

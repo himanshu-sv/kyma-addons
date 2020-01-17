@@ -2,7 +2,7 @@ apiVersion: v1
 data:
   events.json: |
     {
-      "provider": "CDS",
+      "provider": "Github",
       "name": "Github Events",
       "description": "Package containing all events from Github, for details see https://developer.github.com/v3/activity/events/types/",
       "events": {
