@@ -31,19 +31,6 @@ Create chart name and version as used by the chart label.
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-{{/*
-Common labels
-*/}}
-{{- define "cds-connector-0.0.1.labels" -}}
-app.kubernetes.io/name: {{ include "cds-connector-0.0.1.name" . }}
-helm.sh/chart: {{ include "cds-connector-0.0.1.chart" . }}
-app.kubernetes.io/instance: {{ .Release.Name }}
-{{- if .Chart.AppVersion }}
-app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
-{{- end }}
-app.kubernetes.io/managed-by: {{ .Release.Service }}
-{{- end -}}
-
 {{- define "bundle.fullname" -}}
 {{- $name := default .Chart.Name .Values.nameOverride -}}
 {{- printf "%s" $name | trunc 63 | trimSuffix "-" -}}
