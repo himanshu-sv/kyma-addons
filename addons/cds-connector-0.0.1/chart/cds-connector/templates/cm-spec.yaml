@@ -32,6 +32,70 @@ data:
                   }
                 }
               }
+            },
+            "profiles.insights.affinities": {
+              "subscribe": {
+                "summary": "Affinity is updated",
+                "payload": {
+                  "type": "object",
+                  "required": [
+                    "action"
+                  ],
+                  "properties": {
+                    "profileId": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "profiles.transactions": {
+              "subscribe": {
+                "summary": "Transaction is updated",
+                "payload": {
+                  "type": "object",
+                  "required": [
+                    "action"
+                  ],
+                  "properties": {
+                    "profileId": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "profiles.identities.devices": {
+              "subscribe": {
+                "summary": "identity is updated",
+                "payload": {
+                  "type": "object",
+                  "required": [
+                    "action"
+                  ],
+                  "properties": {
+                    "profileId": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "context.commerce.campaignStarted": {
+              "subscribe": {
+                "summary": "identity is updated",
+                "payload": {
+                  "type": "object",
+                  "required": [
+                    "action"
+                  ],
+                  "properties": {
+                    "profileId": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
             }
           }
         }
