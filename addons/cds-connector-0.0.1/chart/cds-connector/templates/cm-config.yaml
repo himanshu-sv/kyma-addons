@@ -12,8 +12,8 @@ data:
   PROVIDER_NAME: CDS
   PRODUCT_NAME: CDS
   APP_KIND: rest-with-apikey
-  API_DESCRIPTION: "APIs for CDS"
+  API_DESCRIPTION: "APIs for SAP CDS"
   API_SPECIFICATION_URL: https://raw.githubusercontent.com/jokafreak/kyma-addons/master/addons/cds-connector-0.0.1/docs/api-specfication.json
-  OAUTH_URL: {{ .Values.oauth_url | quote }}
   CLIENT_ID: {{ .Values.client_id | quote }}
   CLIENT_SECRET: {{ .Values.client_secret | quote }}
+  OAUTH_URL: {{ template "oauth_proxy_service" . }}

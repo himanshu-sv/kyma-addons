@@ -35,3 +35,12 @@ Create chart name and version as used by the chart label.
 {{- $name := default .Chart.Name .Values.nameOverride -}}
 {{- printf "%s" $name | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
+
+{{- define "oauth_proxy_service" -}}
+{{- printf "http://%s-%s.%s:8080" .Values.oAuthProxyName .Values.application_name .Release.Namespace | trimAll " " | quote -}}
+{{- end -}}
+
+{{- define "api_spec_url_value" -}}
+{{- $specUrl := default .Values.default_api_spec_url .Values.api_spec_url -}}
+{{- printf "%s" $specUrl -}}
+{{- end -}}

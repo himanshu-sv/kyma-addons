@@ -17,6 +17,16 @@
       "title": "client_id",
       "description": "client_id"
     },
+    "headers": {
+      "type": "string",
+      "title": "Header Parameters",
+      "description": "Comma seperated headers for oauth in the format of h1=v1,h2=v2"
+    },
+    "formparameters": {
+      "type": "string",
+      "title": "Form Parameters",
+      "description": "Comma seperated form parameters for oauth in the format of f1=v1,f2=v2"
+    },
     "client_secret":{
       "type": "string",
       "title": "client_secret",
