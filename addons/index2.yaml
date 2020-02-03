@@ -1,6 +1,0 @@
-apiVersion: v1
-entries:
-  cds-connector:
-    - name: cds-connector
-      description: "cds connector"
-      version: 0.0.1
