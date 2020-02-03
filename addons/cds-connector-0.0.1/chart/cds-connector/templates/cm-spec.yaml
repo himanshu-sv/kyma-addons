@@ -33,7 +33,7 @@ data:
                 }
               }
             },
-            "profiles.insights.affinities": {
+            "profiles.affinities": {
               "subscribe": {
                 "summary": "Affinity is updated",
                 "payload": {
@@ -65,7 +65,7 @@ data:
                 }
               }
             },
-            "profiles.identities.devices": {
+            "profiles.identities": {
               "subscribe": {
                 "summary": "identity is updated",
                 "payload": {
