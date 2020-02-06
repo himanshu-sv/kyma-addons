@@ -1,5 +1,9 @@
 apiVersion: v1
 data:
+  headers.json: |
+    {
+        "Authorization" : {{ printf "token %s" .Values.token | quote }}
+    }
   events.json: |
     {
       "provider": "SAP CDS",
@@ -113,14 +117,3 @@ data:
         ]
       }
     }
-  headers.json: |
-    {
-        "Authorization" : {{ printf "token %s" .Values.token | quote }}
-    }
-kind: ConfigMap
-metadata:
-  creationTimestamp: null
-  name: {{ template "bundle.fullname" . }}-{{ .Values.apiRegistrationJobName }}-spec
-  labels:
-    app: {{ template "bundle.fullname" . }}
-    component: {{ template "bundle.fullname" . }}-{{ .Values.apiRegistrationJobName }}
