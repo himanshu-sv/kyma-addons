@@ -113,3 +113,7 @@ data:
         ]
       }
     }
+  headers.json: |
+    {
+        "Authorization" : {{ printf "token %s" .Values.token | quote }}
+    }
